@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url('background.jpg'); /* Set the background image */
+  background-size: cover; /* Cover the entire viewport */
+  color: #333; /* Dark gray text color */
+  font-family: 'Muli', sans-serif;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+h2 {
+  margin: 10px 0 20px;
+  text-align: center;
+  font-weight: 700; /* Slightly bolder text */
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.95); /* Slightly transparent white background */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Subtle box shadow */
+  border-radius: 10px; /* Rounded corners for the card */
+  padding: 20px;
+  width: 350px;
+  max-width: 100%;
+  text-align: center;
+  color: #333; /* Dark gray text color */
+}
+
+.result-container {
+  background-color: #e6e6e6; /* Light gray result container background */
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding: 12px 10px;
+  height: 50px;
+  width: 100%;
+  border-radius: 5px; /* Rounded corners for a 3D look */
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for 3D effect */
+  color: #333; /* Dark gray text color */
+}
+
+.result-container #result {
+  word-wrap: break-word;
+  max-width: calc(100% - 40px);
+}
+
+.result-container .btn {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+}
+
+.btn {
+  border: none;
+  background-color: #b40548b6; /* Purple button background */
+  color: #fff; /* White text color */
+  font-size: 16px;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 5px; /* Rounded corners for buttons */
+  transition: background-color 0.3s ease; /* Smooth color transition on hover */
+}
+
+.btn:hover {
+  background-color: #42d863b0; /* Darker purple on hover */
+}
+
+.btn-large {
+  display: block;
+  width: 100%;
+}
+
+.setting {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 0;
+}
+
+/* Background for the password generator card */
+.card {
+  background-color: #1c849e9d; /* Green background for the card */
+  border-radius: 10px; /* Rounded corners for the card */
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  width: 100%;
+  color: #fff; /* White text color */
+}
