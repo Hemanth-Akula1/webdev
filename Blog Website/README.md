@@ -1,5 +1,5 @@
 # Tourism Bloger Website
-## [Demo](https://tourismblogger.netlify.app/)
+
 --------
 
 I have created a torisum blog website using front end development tools. 
