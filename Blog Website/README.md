@@ -1,8 +1,9 @@
-# Tourism Bloger Website Teplate
+# Tourism Bloger Website
 ## [Demo](https://tourismblogger.netlify.app/)
 --------
 
-I have create the torisum blog website front end this website responsive all devices like mobile, tablet, desktop etc . we build this project in HTML,CSS,JS
+I have create a torisum blog website using front end development tools. 
+I build this project using HTML,CSS,JS
 ## Technology Used
 
 #### 1. `HTML`
